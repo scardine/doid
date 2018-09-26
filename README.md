@@ -18,7 +18,7 @@ on objects that are not Django Models like objects from API responses.
 ## Filter Interface
 
 A filter object is a callable that receives an object and returns True or False. 
-Filters can be combined using the bitwise and e or operators: `&` and `|`. For example:
+Filters can be combined using the bitwise operators: `&`, `|` and `~`. For example:
 
     filter4 = filter1 | (filter2 & filter3)
     
