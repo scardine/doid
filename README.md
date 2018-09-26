@@ -24,7 +24,7 @@ Filters can be combined using the bitwise and e or operators: `&` and `|`. For e
     
 You can turn any callable into a filter using a decorator:
 
-    from doid.filter import generic_filter
+    from doid.filter import doid_filter
     
     @doid_filter
     def milenials(value):
